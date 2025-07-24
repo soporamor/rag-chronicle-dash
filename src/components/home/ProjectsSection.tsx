@@ -6,28 +6,28 @@ import { GraduationCap, Home, Utensils, Heart } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Educação para Todos",
-      description: "Oferecemos reforço escolar e cursos profissionalizantes para crianças e jovens da comunidade.",
+      title: "Apoio Educacional",
+      description: "Oferecemos reforço escolar e oficinas de leitura para despertar o amor pelo conhecimento.",
       icon: GraduationCap,
       color: "text-success"
     },
     {
-      title: "Moradia Digna",
-      description: "Ajudamos famílias em situação de vulnerabilidade a conquistar uma moradia adequada.",
-      icon: Home,
-      color: "text-primary"
-    },
-    {
-      title: "Alimentação Solidária",
-      description: "Distribuímos cestas básicas e oferecemos refeições gratuitas para famílias necessitadas.",
+      title: "Cozinha Solidária",
+      description: "Distribuímos refeições e cestas básicas para famílias em insegurança alimentar.",
       icon: Utensils,
       color: "text-warning"
     },
     {
-      title: "Cuidado e Saúde",
-      description: "Promovemos campanhas de saúde e oferecemos apoio psicológico para a comunidade.",
+      title: "Arte, Cultura e Esporte",
+      description: "Aulas de música, teatro e esportes para desenvolver talentos e a socialização.",
       icon: Heart,
       color: "text-destructive"
+    },
+    {
+      title: "Cursos para Mulheres",
+      description: "Oferecemos cursos profissionalizantes para mulheres, promovendo autonomia e geração de renda.",
+      icon: Home,
+      color: "text-primary"
     }
   ];
 
@@ -36,11 +36,11 @@ const ProjectsSection = () => {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Nossos Projetos
+            Onde nosso amor se torna ação
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cada projeto é desenvolvido com muito amor e dedicação, visando impactar 
-            positivamente a vida das pessoas em nossa comunidade.
+            Cada projeto é desenvolvido com muito amor e dedicação, visando o desenvolvimento 
+            holístico de indivíduos em situação de vulnerabilidade.
           </p>
         </div>
 

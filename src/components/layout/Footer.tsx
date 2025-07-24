@@ -18,8 +18,9 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground text-sm mb-4 max-w-md">
-              Uma associação dedicada a transformar vidas através do amor, cuidado e solidariedade. 
-              Trabalhamos para criar um mundo mais justo e acolhedor para todos.
+              Fundada em 23 de junho de 2018, nossa associação surgiu da iniciativa de um grupo de voluntários 
+              que por muitos anos atuava de forma solidária. Fortalecer o desenvolvimento holístico de indivíduos 
+              em situação de vulnerabilidade é nossa missão.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
@@ -64,17 +65,18 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">contato@projetosoporamor.org</span>
+                <span className="text-sm text-muted-foreground">associacaoprojetosoporamor@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">(11) 99999-9999</span>
+                <span className="text-sm text-muted-foreground">(94) 98154-7962</span>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-muted-foreground mt-0.5" />
                 <span className="text-sm text-muted-foreground">
-                  Rua do Amor, 123<br />
-                  São Paulo - SP
+                  Rua N, 319, Bairro União<br />
+                  Parauapebas - PA<br />
+                  Presidente: Ozélia Muniz
                 </span>
               </li>
             </ul>
